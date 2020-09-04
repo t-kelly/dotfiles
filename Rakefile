@@ -11,7 +11,7 @@ require 'rake'
 require 'fileutils'
 
 # These are all the files we want to symlink to ~
-FILES = '.zshrc .gitignore_global'
+FILES = '.zshrc .config/git/ignore'
 
 
 task :default => 'install'
@@ -47,6 +47,6 @@ def symlink_file( file )
 		puts "[Overwriting] #{target}..."
 	end
 
+	`mkdir -p #{File.dirname(target)}`
 	`ln -nfs "#{source}" "#{target}" `
-
 end

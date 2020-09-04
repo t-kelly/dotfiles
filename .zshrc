@@ -113,3 +113,5 @@ export NVM_DIR="$HOME/.nvm"
 # VSCode Profiles
 alias code:teach="code --user-data-dir ~/.code_profiles/screencast/data"
 alias code:default="code --user-data-dir ~/.code_profiles/default/data"
+
+[ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh
