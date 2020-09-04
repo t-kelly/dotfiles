@@ -1,0 +1,16 @@
+{
+    "window.zoomLevel": 1,
+  
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  
+    "editor.fontSize": 16,
+    "editor.lineHeight": 0,
+    "editor.fontLigatures": true,
+  
+    "explorer.decorations.badges": false,
+  
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+  }
+  

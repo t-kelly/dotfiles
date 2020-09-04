@@ -1,0 +1,11 @@
+{
+    "window.zoomLevel": 1,
+  
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  
+    "explorer.decorations.badges": false,
+  
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+  }
+  
